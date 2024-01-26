@@ -1,0 +1,14 @@
+meme_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey", 
+            "LOL": "Komik bir şeye verilen cevap", 
+            "CREEPY":"Korkunç bir şeye söylenieln şey", 
+            "SHEES":"Birşeyi onaylamak", 
+            "MAD":"Çok agresif birisine verilen cevap",
+            "BRUH":"Komik bir duruma verilen tepki"
+}
+print(meme_dict.keys())
+word = input("anlamadıpınız bir kelime yazın(büyük harferle yazın!):")
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("böyle bir kelime yok")
